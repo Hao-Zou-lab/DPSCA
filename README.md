@@ -11,7 +11,7 @@ Use natural language to inform PantheonOS that you want to process single-cell a
 ```
 "PantheonOS, please execute a plant single-cell transcriptome analysis task for me. The specific details are as follows:
 Subject: Arabidopsis (or replace with rice, maize, etc.) single-cell data.
-Data Type: Gene expression matrix in .h5ad format (or replace with FASTQ, .mtx, etc.).
+Data Type: NGS data and scRNA_seq data in .fastq format.
 Data Location: Cloud storage path /bio-data/plant_scRNA/.
 ```
 ## Attention
