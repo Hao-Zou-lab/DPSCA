@@ -175,7 +175,7 @@ cat("\nSTEP 3: Cell Type Annotation (Resolution 0.5)\n")
 cat("-", rep("-", 70), "\n", sep="")
 
 # Load res=0.5 object from output_dir
-seurat_obj <- readRDS(file.path(output_dir, "Step3_Platiflora_res0.5.rds"))
+seurat_obj <- readRDS(file.path(output_dir, "Step3_species_name_res0.5.rds"))
 Idents(seurat_obj) <- "RNA_snn_res.0.5"
 
 # --- Method 1: Ath Assay ---
@@ -349,7 +349,7 @@ print(cowplot::plot_grid(p1, p2, ncol = 2, rel_widths = c(1, 1.6)))
 dev.off()
 
 # ... 后续的 saveRDS 和 summary 代码保持不变 ...
-saveRDS(seurat_obj, file.path(output_dir, "Step3_Platiflora_PCMDB.rds"))
+saveRDS(seurat_obj, file.path(output_dir, "Step3_species_name_PCMDB.rds"))
 cat("  Saved: Step6 PCMDB files \n\n")
 
 # Summary Statistics
