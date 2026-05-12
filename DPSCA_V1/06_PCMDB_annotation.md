@@ -46,7 +46,7 @@ pcmdb_file <- file.path(workdir, "PCMDB_Ath.csv")  # Plant Cell Marker Database
 func_anno_file <- file.path(workdir, "gene_annotation.txt")  # Functional annotations
 
 # Output directory (all results go here)
-output_dir <- file.path(workdir, "step5_clusting_annotation")
+output_dir <- file.path(workdir, "step5_clustering_annotation")
 
 # ============================================================================
 # Environment Setup
